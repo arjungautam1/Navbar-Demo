@@ -29,22 +29,22 @@ export default class NavbarComp extends Component {
                                 <Nav.Link as={Link} to="/home">Home</Nav.Link>
                                 <Nav.Link as={Link} to="/about">About</Nav.Link>
                                 <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
-                               
+
                             </Nav>
-                          
+
                         </Navbar.Collapse>
                     </Navbar>
                 </div>
                 <div>
                     <Switch>
                         <Route path="/about">
-                            <About/>
+                            <About />
                         </Route>
                         <Route path="/contact">
-                            <Contact/>
+                            <Contact />
                         </Route>
                         <Route path="/">
-                           <Home/>
+                            <Home />
                         </Route>
                     </Switch>
                 </div>
