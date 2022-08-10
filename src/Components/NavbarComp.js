@@ -9,7 +9,7 @@ import {
 
 import Home from './Home';
 import Contact from './Contact';
-import About from './About'
+import About from './About';
 
 export default class NavbarComp extends Component {
     render() {
